@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "estudai",
+    "name": "Estudaí",
     "slug": "estudai",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,26 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.estudai.app",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "estudai",
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "ba4cb743-13a4-4801-99f7-dda3cca6dc52"
+      }
     }
   }
 }
